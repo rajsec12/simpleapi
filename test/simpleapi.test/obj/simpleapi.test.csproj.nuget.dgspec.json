@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rbm/Documents/VSCODE/simpleapisolution/test/simpleapi.test/simpleapi.test.csproj": {}
+  },
+  "projects": {
+    "/Users/rbm/Documents/VSCODE/simpleapisolution/src/simpleapi/simpleapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rbm/Documents/VSCODE/simpleapisolution/src/simpleapi/simpleapi.csproj",
+        "projectName": "simpleapi",
+        "projectPath": "/Users/rbm/Documents/VSCODE/simpleapisolution/src/simpleapi/simpleapi.csproj",
+        "packagesPath": "/Users/rbm/.nuget/packages/",
+        "outputPath": "/Users/rbm/Documents/VSCODE/simpleapisolution/src/simpleapi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rbm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rbm/Documents/VSCODE/simpleapisolution/test/simpleapi.test/simpleapi.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rbm/Documents/VSCODE/simpleapisolution/test/simpleapi.test/simpleapi.test.csproj",
+        "projectName": "simpleapi.test",
+        "projectPath": "/Users/rbm/Documents/VSCODE/simpleapisolution/test/simpleapi.test/simpleapi.test.csproj",
+        "packagesPath": "/Users/rbm/.nuget/packages/",
+        "outputPath": "/Users/rbm/Documents/VSCODE/simpleapisolution/test/simpleapi.test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rbm/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/rbm/Documents/VSCODE/simpleapisolution/src/simpleapi/simpleapi.csproj": {
+                "projectPath": "/Users/rbm/Documents/VSCODE/simpleapisolution/src/simpleapi/simpleapi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
