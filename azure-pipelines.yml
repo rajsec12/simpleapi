@@ -1,6 +1,17 @@
 # ASP.NET Core (.NET Framework)
 - task: aquasecScanner@4
   inputs:
+    image: 'rb_test'
+    scanType: 'local'
+    register: false
+    hideBase: false
+    showNegligible: false
+    windowsScannerVersion: '4.2.0'
+    connection: 'local-cop'
+    scanMalware: true
+    showWillNotFix: true
+- task: aquasecScanner@4
+  inputs:
     image: 'First_test'
     scanType: 'local'
     register: false
